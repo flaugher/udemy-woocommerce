@@ -1,0 +1,48 @@
+[27-Jan-2020 22:14:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-includes/rest-api/endpoints/class-wp-rest-controller.php on line 295
+[27-Jan-2020 22:14:31 UTC] PHP Stack trace:
+[27-Jan-2020 22:14:31 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar:0
+[27-Jan-2020 22:14:31 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar:4
+[27-Jan-2020 22:14:31 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[27-Jan-2020 22:14:31 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[27-Jan-2020 22:14:31 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[27-Jan-2020 22:14:31 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[27-Jan-2020 22:14:31 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1130
+[27-Jan-2020 22:14:31 UTC] PHP   8. WP_CLI::do_hook() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[27-Jan-2020 22:14:31 UTC] PHP   9. WC_CLI_Runner::after_wp_load() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/class-wp-cli.php:304
+[27-Jan-2020 22:14:31 UTC] PHP  10. WP_REST_Server->dispatch() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-content/plugins/woocommerce/includes/cli/class-wc-cli-runner.php:63
+[27-Jan-2020 22:14:31 UTC] PHP  11. WP_REST_Server->get_index() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-includes/rest-api/class-wp-rest-server.php:946
+[27-Jan-2020 22:14:31 UTC] PHP  12. WP_REST_Server->get_data_for_routes() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-includes/rest-api/class-wp-rest-server.php:1033
+[27-Jan-2020 22:14:31 UTC] PHP  13. WP_REST_Server->get_data_for_route() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-includes/rest-api/class-wp-rest-server.php:1110
+[27-Jan-2020 22:14:31 UTC] PHP  14. WPCOM_REST_API_V2_Endpoint_Resolve_Redirect->get_public_item_schema() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-includes/rest-api/class-wp-rest-server.php:1165
+[01-Feb-2020 19:07:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-includes/rest-api/endpoints/class-wp-rest-controller.php on line 295
+[01-Feb-2020 19:07:50 UTC] PHP Stack trace:
+[01-Feb-2020 19:07:50 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar:0
+[01-Feb-2020 19:07:50 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar:4
+[01-Feb-2020 19:07:50 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[01-Feb-2020 19:07:50 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[01-Feb-2020 19:07:50 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[01-Feb-2020 19:07:50 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[01-Feb-2020 19:07:50 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1130
+[01-Feb-2020 19:07:50 UTC] PHP   8. WP_CLI::do_hook() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[01-Feb-2020 19:07:50 UTC] PHP   9. WC_CLI_Runner::after_wp_load() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/class-wp-cli.php:304
+[01-Feb-2020 19:07:50 UTC] PHP  10. WP_REST_Server->dispatch() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-content/plugins/woocommerce/includes/cli/class-wc-cli-runner.php:63
+[01-Feb-2020 19:07:50 UTC] PHP  11. WP_REST_Server->get_index() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-includes/rest-api/class-wp-rest-server.php:946
+[01-Feb-2020 19:07:50 UTC] PHP  12. WP_REST_Server->get_data_for_routes() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-includes/rest-api/class-wp-rest-server.php:1033
+[01-Feb-2020 19:07:50 UTC] PHP  13. WP_REST_Server->get_data_for_route() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-includes/rest-api/class-wp-rest-server.php:1110
+[01-Feb-2020 19:07:50 UTC] PHP  14. WPCOM_REST_API_V2_Endpoint_Resolve_Redirect->get_public_item_schema() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-includes/rest-api/class-wp-rest-server.php:1165
+[01-Feb-2020 19:38:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-includes/rest-api/endpoints/class-wp-rest-controller.php on line 295
+[01-Feb-2020 19:38:05 UTC] PHP Stack trace:
+[01-Feb-2020 19:38:05 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar:0
+[01-Feb-2020 19:38:05 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar:4
+[01-Feb-2020 19:38:05 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[01-Feb-2020 19:38:05 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[01-Feb-2020 19:38:05 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[01-Feb-2020 19:38:05 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[01-Feb-2020 19:38:05 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1130
+[01-Feb-2020 19:38:05 UTC] PHP   8. WP_CLI::do_hook() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[01-Feb-2020 19:38:05 UTC] PHP   9. WC_CLI_Runner::after_wp_load() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/class-wp-cli.php:304
+[01-Feb-2020 19:38:05 UTC] PHP  10. WP_REST_Server->dispatch() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-content/plugins/woocommerce/includes/cli/class-wc-cli-runner.php:63
+[01-Feb-2020 19:38:05 UTC] PHP  11. WP_REST_Server->get_index() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-includes/rest-api/class-wp-rest-server.php:946
+[01-Feb-2020 19:38:05 UTC] PHP  12. WP_REST_Server->get_data_for_routes() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-includes/rest-api/class-wp-rest-server.php:1033
+[01-Feb-2020 19:38:05 UTC] PHP  13. WP_REST_Server->get_data_for_route() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-includes/rest-api/class-wp-rest-server.php:1110
+[01-Feb-2020 19:38:05 UTC] PHP  14. WPCOM_REST_API_V2_Endpoint_Resolve_Redirect->get_public_item_schema() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-includes/rest-api/class-wp-rest-server.php:1165
