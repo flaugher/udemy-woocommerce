@@ -46,3 +46,67 @@
 [01-Feb-2020 19:38:05 UTC] PHP  12. WP_REST_Server->get_data_for_routes() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-includes/rest-api/class-wp-rest-server.php:1033
 [01-Feb-2020 19:38:05 UTC] PHP  13. WP_REST_Server->get_data_for_route() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-includes/rest-api/class-wp-rest-server.php:1110
 [01-Feb-2020 19:38:05 UTC] PHP  14. WPCOM_REST_API_V2_Endpoint_Resolve_Redirect->get_public_item_schema() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-includes/rest-api/class-wp-rest-server.php:1165
+[01-Feb-2020 23:31:03 UTC] WordPress database error Server shutdown in progress for query SELECT option_value FROM wp_options WHERE option_name = '_transient_timeout_jetpack_idc_allowed' LIMIT 1 made by include('phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/php/boot-phar.php'), include('phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php'), WP_CLI\bootstrap, WP_CLI\Bootstrap\LaunchRunner->process, WP_CLI\Runner->start, WP_CLI\Runner->load_wordpress, require('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\Jetpack\Sync\Actions::init, Automattic\Jetpack\Sync\Actions::sync_allowed, Jetpack::is_staging_site, Jetpack::validate_sync_error_idc_option, get_transient, get_option
+[01-Feb-2020 23:31:03 UTC] WordPress database error Server shutdown in progress for query SELECT option_value FROM wp_options WHERE option_name = '_transient_timeout_jetpack_idc_allowed' LIMIT 1 made by include('phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/php/boot-phar.php'), include('phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php'), WP_CLI\bootstrap, WP_CLI\Bootstrap\LaunchRunner->process, WP_CLI\Runner->start, WP_CLI\Runner->load_wordpress, require('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\Jetpack\Sync\Actions::init, Automattic\Jetpack\Sync\Actions::sync_allowed, Jetpack::is_staging_site, Jetpack::validate_sync_error_idc_option, get_transient, get_option
+[01-Feb-2020 23:31:03 UTC] PHP Warning:  Error while sending QUERY packet. PID=55306 in /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-includes/wp-db.php on line 2030
+[01-Feb-2020 23:31:03 UTC] PHP Warning:  Error while sending QUERY packet. PID=55310 in /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-includes/wp-db.php on line 2030
+[01-Feb-2020 23:31:03 UTC] PHP Stack trace:
+[01-Feb-2020 23:31:03 UTC] PHP Stack trace:
+[01-Feb-2020 23:31:03 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar:0
+[01-Feb-2020 23:31:03 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar:0
+[01-Feb-2020 23:31:03 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar:4
+[01-Feb-2020 23:31:03 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar:4
+[01-Feb-2020 23:31:03 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[01-Feb-2020 23:31:03 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[01-Feb-2020 23:31:03 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[01-Feb-2020 23:31:03 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[01-Feb-2020 23:31:03 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[01-Feb-2020 23:31:03 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[01-Feb-2020 23:31:03 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[01-Feb-2020 23:31:03 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[01-Feb-2020 23:31:03 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1130
+[01-Feb-2020 23:31:03 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1130
+[01-Feb-2020 23:31:03 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1209
+[01-Feb-2020 23:31:03 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1209
+[01-Feb-2020 23:31:03 UTC] PHP   9. do_action() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-settings.php:392
+[01-Feb-2020 23:31:03 UTC] PHP   9. do_action() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-settings.php:392
+[01-Feb-2020 23:31:03 UTC] PHP  10. WP_Hook->do_action() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-includes/plugin.php:478
+[01-Feb-2020 23:31:03 UTC] PHP  10. WP_Hook->do_action() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-includes/plugin.php:478
+[01-Feb-2020 23:31:03 UTC] PHP  11. WP_Hook->apply_filters() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-includes/class-wp-hook.php:312
+[01-Feb-2020 23:31:03 UTC] PHP  11. WP_Hook->apply_filters() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-includes/class-wp-hook.php:312
+[01-Feb-2020 23:31:03 UTC] PHP  12. Automattic\Jetpack\Sync\Actions::init() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-includes/class-wp-hook.php:288
+[01-Feb-2020 23:31:03 UTC] PHP  12. Automattic\Jetpack\Sync\Actions::init() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-includes/class-wp-hook.php:288
+[01-Feb-2020 23:31:03 UTC] PHP  13. Automattic\Jetpack\Sync\Actions::sync_allowed() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-actions.php:69
+[01-Feb-2020 23:31:03 UTC] PHP  13. Automattic\Jetpack\Sync\Actions::sync_allowed() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-actions.php:69
+[01-Feb-2020 23:31:03 UTC] PHP  14. Jetpack::is_staging_site() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-actions.php:192
+[01-Feb-2020 23:31:03 UTC] PHP  15. Jetpack::validate_sync_error_idc_option() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-content/plugins/jetpack/class.jetpack.php:6050
+[01-Feb-2020 23:31:03 UTC] PHP  14. Jetpack::is_staging_site() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-actions.php:192
+[01-Feb-2020 23:31:03 UTC] PHP  16. get_transient() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-content/plugins/jetpack/class.jetpack.php:6075
+[01-Feb-2020 23:31:03 UTC] PHP  15. Jetpack::validate_sync_error_idc_option() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-content/plugins/jetpack/class.jetpack.php:6050
+[01-Feb-2020 23:31:03 UTC] PHP  16. get_transient() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-content/plugins/jetpack/class.jetpack.php:6075
+[01-Feb-2020 23:31:03 UTC] PHP  17. get_option() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-includes/option.php:724
+[01-Feb-2020 23:31:03 UTC] PHP  17. get_option() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-includes/option.php:724
+[01-Feb-2020 23:31:03 UTC] PHP  18. wpdb->get_row() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-includes/option.php:100
+[01-Feb-2020 23:31:03 UTC] PHP  18. wpdb->get_row() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-includes/option.php:100
+[01-Feb-2020 23:31:03 UTC] PHP  19. wpdb->query() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-includes/wp-db.php:2569
+[01-Feb-2020 23:31:03 UTC] PHP  20. wpdb->_do_query() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-includes/wp-db.php:1918
+[01-Feb-2020 23:31:03 UTC] PHP  19. wpdb->query() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-includes/wp-db.php:2569
+[01-Feb-2020 23:31:03 UTC] PHP  21. mysqli_query() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-includes/wp-db.php:2030
+[01-Feb-2020 23:31:03 UTC] PHP  20. wpdb->_do_query() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-includes/wp-db.php:1918
+[01-Feb-2020 23:31:03 UTC] PHP  21. mysqli_query() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-includes/wp-db.php:2030
+[02-Feb-2020 19:19:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-includes/rest-api/endpoints/class-wp-rest-controller.php on line 295
+[02-Feb-2020 19:19:28 UTC] PHP Stack trace:
+[02-Feb-2020 19:19:28 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar:0
+[02-Feb-2020 19:19:28 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar:4
+[02-Feb-2020 19:19:28 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[02-Feb-2020 19:19:28 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[02-Feb-2020 19:19:28 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[02-Feb-2020 19:19:28 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[02-Feb-2020 19:19:28 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1130
+[02-Feb-2020 19:19:28 UTC] PHP   8. WP_CLI::do_hook() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[02-Feb-2020 19:19:28 UTC] PHP   9. WC_CLI_Runner::after_wp_load() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/class-wp-cli.php:304
+[02-Feb-2020 19:19:28 UTC] PHP  10. WP_REST_Server->dispatch() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-content/plugins/woocommerce/includes/cli/class-wc-cli-runner.php:63
+[02-Feb-2020 19:19:28 UTC] PHP  11. WP_REST_Server->get_index() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-includes/rest-api/class-wp-rest-server.php:946
+[02-Feb-2020 19:19:28 UTC] PHP  12. WP_REST_Server->get_data_for_routes() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-includes/rest-api/class-wp-rest-server.php:1033
+[02-Feb-2020 19:19:28 UTC] PHP  13. WP_REST_Server->get_data_for_route() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-includes/rest-api/class-wp-rest-server.php:1110
+[02-Feb-2020 19:19:28 UTC] PHP  14. WPCOM_REST_API_V2_Endpoint_Resolve_Redirect->get_public_item_schema() /Users/flaugher/projects/wordpress/udemy_woocommerce/dog_adorer/app/public/wp-includes/rest-api/class-wp-rest-server.php:1165

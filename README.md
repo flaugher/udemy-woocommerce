@@ -11,11 +11,16 @@ Run the website locally using [Local by Flywheel](https://localbyflywheel.com).
 - Classic Editor
 - Homepage Control
 - MetaSlider
+- Social Media Widget (Noah Kagan)
+- UpdraftPlus Backup
 - WooCommerce
+- Wordfence Security
 
 ### Set up site
 
-Start by creating the directory (from your command line) you want the site files to go into (e.g. ~/projects/wordpress/udemy_woocommerce/sex_toys).  Then, when you create the site in the Local app, choose "Advanced Options" when naming the site and select that directory.
+Start by creating the directory (from your command line) you want the site files to go into (e.g. ~/projects/wordpress/udemy_woocommerce/dog_adorer).  Then, when you create the site in the Local app, choose "Advanced Options" when naming the site and select that directory.
+
+If you've deleted the site from the Local app, simply rebuild the site, point it to your destination directory, and clone the site from Github into that directory.
 
 ### Run site
 
@@ -86,7 +91,59 @@ Note that your replaced id=XXX with the metaslider ID which is shown on the Meta
 
 Get some idea of what site looks like on different size devices by going to Appearance > Customize and then clicking on the device icons at the bottom of the left menu bar.
 
+#### Lesson 26
+
+He recommends AliDropShip and WooDropShip for drop-shipping.
+
+#### Lesson 30
+
+The advantage in signing up for Stripe or Paypal is that you don't have to set up your own merchant account in order to receive payments.
+
+### Lessons 35 - 37
+
+Backup plugin:
+UpdraftPlus WordPress Backup Plugin
+
+Keep at least 7 backups.
+
+Security:
+Wordfence Security
+
+SSL:
+No plugin required.
+His webhost tmdhosting.com, uses Let's Encrypt to create certificates for his sites.
+
+### Lessons 41
+
+Add reviews to a product at the bottom of the product's page.  Go to Products > (product page) > Reviews (at the bottom)
+
+### Lessons 44
+
+Recommends freelancer.com if you want to advertise as a WP developer.
+
 
 ### Notes
 
 - He recommends setting up "sales", "billing", and "support" emails.
+- He has other Udemy courses and a YouTube channel.
+
+### Criticisms
+
+Screens no longer match.
+Instructor doesn't understand what's going on under the hood and can't help you resolve problems.
+
+### Instructor
+https://www.facebook.com/groups/EcommerceMindset/
+https://www.youtube.com/ecommercemindset
+https://ecommercemindset.com/
+
+### Resources
+
+[His finished version of the example site](https://dog-adorer.com)
+[woocommerce.com](https://woocommerce.com/)
+[WordPress.org Storefront Forum](https://wordpress.org/support/theme/storefront/)
+[codable.io WooCommerce developers](https://codeable.io/developers/woocommerce/)
+[elementor](https://elementor.com/) -- [Guy on reddit](https://www.reddit.com/r/woocommerce/comments/excw63/does_woocommerce_include_a_cart_feature_by_default/) uses their "Pro" version to build custom WP pages
+[TMD Hosting](https://www.tmdhosting.com/) -- Webhosting that instructor uses in the course
+[Grasshopper](https://grasshopper.com/) -- Gives you a telephone number to put on your site
+[Wordpress advice - Is the market oversaturated with Wordpress designers or are there still opportunities to be had?](https://www.reddit.com/r/digitalnomad/comments/bxrdau/wordpress_advice_is_the_market_oversaturated_with/)
